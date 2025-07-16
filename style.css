@@ -1,0 +1,69 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e8f5e9; /* ✅ สีเขียวอ่อน */
+  color: #222;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#connectWallet {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #4caf50; /* ✅ เขียวสด */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.token-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.token {
+  background: #ffffff;
+  border: 1px solid #c8e6c9; /* ✅ ขอบเขียวอ่อน */
+  padding: 20px;
+  border-radius: 10px;
+  width: 160px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.actions,
+.add-token-buttons {
+  margin: 30px 10px;
+}
+
+.actions button,
+.add-token-buttons button {
+  background: #4caf50; /* ✅ สีเขียวสด */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.add-token-buttons button:hover {
+  background: #388e3c; /* ✅ เขียวเข้มตอน hover */
+}
