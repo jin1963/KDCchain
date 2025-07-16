@@ -8,7 +8,7 @@ const tokenContracts = {
     decimals: 18,
   },
   LYDIA: {
-    address: "0xbfD941B45f6E9850Ba82510284426dFD3fBf25E2", // 👈 ที่คุณส่งมา
+    address: "0x0fa662697d93Eb024f411E416f681EA7FECFcF96", // 👈 ที่คุณส่งมา
     decimals: 18,
   }
 };
