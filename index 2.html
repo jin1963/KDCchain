@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KDC Wallet</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="KDC Logo" class="logo" />
+    <h1>KDC Wallet</h1>
+    <button id="connectWallet">Connect Wallet</button>
+    <p id="walletAddress">Not connected</p>
+  </header>
+
+  <section class="token-list">
+    <div class="token" id="kjc">
+      <h2>KJC</h2>
+      <p>Balance: <span class="balance">-</span></p>
+    </div>
+    <div class="token" id="g3x24">
+      <h2>G3X24</h2>
+      <p>Balance: <span class="balance">-</span></p>
+    </div>
+    <div class="token" id="lydia">
+      <h2>LYDIA</h2>
+      <p>Balance: <span class="balance">-</span></p>
+    </div>
+  </section>
+
+  <section class="actions">
+    <button>Send</button>
+    <button>Receive</button>
+    <button>Swap</button>
+    <button>Stake</button>
+    <button onclick="window.open('https://bscscan.com/address/0xd479ae350dc24168e8db863c5413c35fb2044ecd')">Explorer</button>
+  </section>
+
+  <section class="add-token-buttons">
+    <h3 style="color: white;">Add Tokens to Wallet</h3>
+    <button onclick="addToken('KJC')">Add KJC</button>
+    <button onclick="addToken('G3X24')">Add G3X24</button>
+    <button onclick="addToken('LYDIA')">Add LYDIA</button>
+  </section>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
